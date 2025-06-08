@@ -1,0 +1,60 @@
+export default function Data() {
+    return {
+      user: {
+        id: "user_001",
+        name: "Jane Doe",
+        email: "jane.doe@example.com",
+        createdAt: "2024-03-01T10:15:30Z",
+      },
+      subscriptions: [
+        {
+          id: "sub_001",
+          name: "Netflix",
+          category: "Streaming",
+          amount: 15.99,
+          currency: "USD",
+          billingCycle: "monthly",
+          nextBillingDate: "2025-07-01",
+          status: "active",
+          createdAt: "2023-07-01T09:00:00Z",
+        },
+        {
+          id: "sub_002",
+          name: "Spotify",
+          category: "Music",
+          amount: 9.99,
+          currency: "USD",
+          billingCycle: "monthly",
+          nextBillingDate: "2025-06-10",
+          status: "active",
+          createdAt: "2024-01-10T12:30:00Z",
+        },
+        {
+          id: "sub_003",
+          name: "Adobe Creative Cloud",
+          category: "Software",
+          amount: 52.99,
+          currency: "USD",
+          billingCycle: "monthly",
+          nextBillingDate: "2025-06-20",
+          status: "paused",
+          createdAt: "2023-05-05T15:45:00Z",
+        },
+        {
+          id: "sub_004",
+          name: "Amazon Prime",
+          category: "Shopping",
+          amount: 139.0,
+          currency: "USD",
+          billingCycle: "yearly",
+          nextBillingDate: "2026-01-01",
+          status: "active",
+          createdAt: "2024-01-01T08:00:00Z",
+        },
+      ],
+      totalActiveSubscriptions: 3,
+      totalMonthlySpend: 78.97,
+      totalYearlySpend: 139.0,
+    };
+  }
+  
